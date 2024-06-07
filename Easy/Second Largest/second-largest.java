@@ -31,9 +31,8 @@ public class Main {
 
 class Solution {
     int print2largest(int arr[], int n) {
-        int max1;
-        int max2;
-        max1= max2=-1;
+        int max1= arr[0];
+        int max2 = -1;
         for(int i=0; i<n; i++){
             if(arr[i]> max1){
                 max2= max1;
